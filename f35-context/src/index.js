@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
-import { GlobalContextProvider } from "./store/cart-context";
+import { GlobalContextProvider } from "./state/GlobalContext";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
