@@ -2,7 +2,7 @@ import React, {createContext, useReducer} from "react";
 
 let InitialState = {
     modalState : false,
-    foodArr : ['']
+    foodArr : []
 }
 
 const GlobalContext = createContext()

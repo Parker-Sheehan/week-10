@@ -6,7 +6,6 @@ import GlobalContext from "../store/cart-context";
 const Item = (props) => {
   const quantityRef = useRef();
   const {state, dispatch} = useContext(GlobalContext)
-  console.log(state)
 
   const handleSubmit = (evt) => {
     evt.preventDefault()
