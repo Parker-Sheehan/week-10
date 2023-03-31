@@ -1,0 +1,10 @@
+.middle{
+    position: absolute;
+    top: 30vh;
+    left: 30vw;
+    height: 40vh;
+    width: 40vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

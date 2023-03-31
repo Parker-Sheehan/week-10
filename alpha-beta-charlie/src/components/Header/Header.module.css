@@ -1,0 +1,6 @@
+.super{
+    background-color: silver;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
